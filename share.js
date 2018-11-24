@@ -10,7 +10,7 @@ console.log("Welcome Again !");
 هلااخي
 متاكد انك ما تريد ترد  خاص بس امتمنى انك تدخل
 نقصنا كثير اعضاء فا بليز ادخل
-https://discord.gg/AnTtFBT
+https://discord.gg/mwau89R
 :heart:
 `)
 }).catch(console.error)
