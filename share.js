@@ -7,11 +7,9 @@ console.log("Welcome Again !");
   member.createDM().then(function (channel) {
   return channel.send(` 
 **
-هلااخي
-متاكد انك ما تريد ترد  خاص بس امتمنى انك تدخل
-نقصنا كثير اعضاء فا بليز ادخل
+تعال اخطفك ياقلبي 
 
-https://discord.gg/F6hGHzq
+https://discord.gg/2UcRAU6
 :heart:
 `)
 }).catch(console.error)
