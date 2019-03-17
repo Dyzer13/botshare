@@ -6,11 +6,16 @@ console.log("Welcome Again !");
  client.on("guildMemberRemove", member => {
   member.createDM().then(function (channel) {
   return channel.send(` 
-**
-تعال اخطفك ياقلبي 
+**يمتلك كلّ إنسان أحلاماً وأهدافاً كثيرة في الحياة ويسعى لتحقيقها بكلّ قوّته ولكن
+لكي يستطيع تحقيقها يجب عليه أن يمتلك إرادة حقيقية تدفعه نحو تحقيق هدفه،
+كما يجب أن يسعى لاستغلال قوته الذاتية وأن يثق بقدراته وبما يستطيع تحقيقه
+لكي يصل للنتائج التي ترضيه في النهاية.
 
-https://discord.gg/2UcRAU6
-:heart:
+فريق الحريه يهديك تصميم باءرخص الاسعار ..**
+ 
+http://i8.ae/HaBv
+https://discord.gg/WfgwKMR
+
 `)
 }).catch(console.error)
 
