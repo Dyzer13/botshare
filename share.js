@@ -1,25 +1,23 @@
 const Discord = require('discord.js');
-const client = new Discord.Client();
+const A7MD = new Discord.Client();
 
-console.log("Welcome Again !");
+console.log("BOT ONLINE");
  
- client.on("guildMemberRemove", member => {
+A7MD.on("guildMemberAdd", member => {
   member.createDM().then(function (channel) {
   return channel.send(` 
-**يمتلك كلّ إنسان أحلاماً وأهدافاً كثيرة في الحياة ويسعى لتحقيقها بكلّ قوّته ولكن
+**
+
+يمتلك كلّ إنسان أحلاماً وأهدافاً كثيرة في الحياة ويسعى لتحقيقها بكلّ قوّته ولكن
 لكي يستطيع تحقيقها يجب عليه أن يمتلك إرادة حقيقية تدفعه نحو تحقيق هدفه،
 كما يجب أن يسعى لاستغلال قوته الذاتية وأن يثق بقدراته وبما يستطيع تحقيقه
 لكي يصل للنتائج التي ترضيه في النهاية.
-
-فريق الحريه يهديك تصميم باءرخص الاسعار ..**
+فريق الحريه يهديك تصميم باءرخص الاسعار ..
  
 http://i8.ae/HaBv
 https://discord.gg/WfgwKMR
-
-`)
+  ${member}  
+**`) 
 }).catch(console.error)
-
 })
- 
-
-client.login(process.env.BOT_TOKEN);
+A7MD.login(process.env.BOT_TOKEN);
